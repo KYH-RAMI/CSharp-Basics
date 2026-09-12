@@ -23,4 +23,4 @@ Console.WriteLine($"Har Write: {(rättigheter & Write) != 0}");
 
 Console.WriteLine("======================");
 Console.WriteLine("\nTryck på en tangent för att avsluta...");
-Console.ReadKey();
+Console.ReadKey(); 

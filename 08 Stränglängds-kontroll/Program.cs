@@ -9,4 +9,4 @@ Console.WriteLine(text?.Length ?? 0);
 
 Console.WriteLine("======================");
 Console.WriteLine("\nTryck på en tangent för att avsluta...");
-Console.ReadKey();
+Console.ReadKey(); 

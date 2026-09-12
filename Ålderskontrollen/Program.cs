@@ -5,4 +5,4 @@ int ålder = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"Du är myndig: {ålder >= 18}");
 Console.WriteLine("======================");
 Console.WriteLine("\nTryck på en tangent för att avsluta...");
-Console.ReadKey();
+Console.ReadKey();  

@@ -27,4 +27,4 @@ Console.WriteLine($"Unchecked resultat: {uncheckedResultat}");
 
 Console.WriteLine("======================");
 Console.WriteLine("\nTryck på en tangent för att avsluta...");
-Console.ReadKey();
+Console.ReadKey(); 

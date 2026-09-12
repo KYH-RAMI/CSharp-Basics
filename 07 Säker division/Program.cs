@@ -12,4 +12,4 @@ string resultat = nämnare != 0 ? $"Resultat: {täljare / nämnare}" : "Resultat
 Console.WriteLine(resultat);
 Console.WriteLine("======================");
 Console.WriteLine("\nTryck på en tangent för att avsluta...");
-Console.ReadKey();
+Console.ReadKey(); 
