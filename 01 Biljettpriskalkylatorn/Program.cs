@@ -21,15 +21,15 @@ if (int.TryParse(Console.ReadLine(), out int antalBiljetter) && antalBiljetter >
         decimal slutPris = totalPris - rabatt;
 
         Console.WriteLine($"Antal biljetter: {antalBiljetter}");
-        Console.WriteLine($"Ordinarie pris: {totalPris} kr");
-        Console.WriteLine($"Rabatt ({rabattProcent}%): -{rabatt} kr");
-        Console.WriteLine($"Slutpris: {slutPris} kr");
+        Console.WriteLine($"Ordinarie pris: {totalPris:F2} kr.");
+        Console.WriteLine($"Rabatt ({rabattProcent}%): -{rabatt:F2} kr.");
+        Console.WriteLine($"Slutpris: {slutPris:F2} kr.");
     }
     else
     {
         Console.WriteLine($"Antal biljetter: {antalBiljetter}");
         Console.WriteLine($"Ingen rabatt eftersom färre än 3 biljetter köptes.");
-        Console.WriteLine($"Totalpris: {totalPris} kr");
+        Console.WriteLine($"Totalpris: {totalPris:F2} kr");
     }
 
     Console.WriteLine("============================");

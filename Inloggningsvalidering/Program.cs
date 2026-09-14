@@ -1,11 +1,13 @@
-﻿Console.WriteLine("03 Inloggningsvalidering");
+﻿const string username = "admin";
+const string password = "password";
+Console.WriteLine("03 Inloggningsvalidering");
 Console.WriteLine("======================");
 Console.Write("Användarnamn: ");
-string username = Console.ReadLine();
+string user = Console.ReadLine();
 Console.Write("Lösenord: ");
-string password = Console.ReadLine();
+string pass = Console.ReadLine();
 
-if (username == "admin" && password == "password") { 
+if (user == username && pass == password) { 
     Console.WriteLine("True!");
 }
 else
